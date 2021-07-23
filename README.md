@@ -1,14 +1,13 @@
-[https://richard.fisher.cymru](https://richard.fisher.cymru)
 # Newport
 Newport is a simple Ruby script for building a single file blog/static site.
 
+Example: [https://richard.fisher.cymru](https://richard.fisher.cymru)
+
 ## Getting Started
-- Install Ruby
-- Install the bundler gem `gem install bundler`
-- Install the newport gem `gem install newport`
-- Run `newport new <path>`
-- Run `cd <path>`
-- Run `newport build`
+- `gem install newport`
+- `newport new <path>`
+- `cd <path>`
+- `newport build`
 
 ## Plugins
 Plugins are available in the plugins directory and are pure javascript. Plugins are run after the page loads and can modify the contents.  
