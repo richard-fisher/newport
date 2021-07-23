@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.authors       = ['Richard Fisher']
   s.email         = ['richard@fisher.cymru']
-  s.homepage      = 'https://richard.fisher.cymru/newport'
+  s.homepage      = 'https://github.com/richard-fisher/newport'
   s.summary       = 'A simple static site blog generator.'
   s.description   = 'Newport is a simple static site blog generator.'
 
