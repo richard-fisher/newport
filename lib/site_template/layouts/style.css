@@ -18,15 +18,18 @@ section{margin-top:2rem}
 .expander-arrow, .more-arrow, .more-arrow:active, .more-arrow:visited { color: var(--text-color); fill: var(--text-color) }
 footer {border-top: 1px #ccc solid;min-height: 80px;padding-top: 10px;padding-bottom:15px}
 .main {min-height: calc(100% - 40px)}
+code{background:var(--code-background-color);padding-left:2px;padding-right:2px}
 
 :root {
     --background-color: #fafafa;
     --text-color: #111;
+    --code-background-color: #ccc;
 }
 
 [data-theme="dark"] {
     --background-color: #111;
     --text-color: #fafafa;
+    --code-background-color: #888;
 }
 
 /* The switch - the box around the slider */
