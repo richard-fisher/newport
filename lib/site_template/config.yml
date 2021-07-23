@@ -1,0 +1,7 @@
+title: ""
+email: ""
+plugins:
+  - expander
+  - darkmode
+  - permalink
+  - pagination
