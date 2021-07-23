@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    newport (1.0.2)
+    newport (1.0.5)
       colorator (~> 1.0)
       kramdown (~> 2.3, >= 2.3.1)
       mercenary (>= 0.3.6, < 0.5)

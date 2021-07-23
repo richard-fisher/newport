@@ -12,9 +12,8 @@ Gem::Specification.new do |s|
   s.summary       = 'A simple static site blog generator.'
   s.description   = 'Newport is a simple static site blog generator.'
 
-  all_files       = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
-  s.files         = all_files.grep(%r{^(exe|lib)/$})
-  s.executables   = all_files.grep(%r{^exe/}) { |f| File.basename(f) }
+  s.files         = Dir['lib/**/*']
+  s.executables   = ['newport']
   s.bindir        = 'exe'
   s.require_paths = ['lib']
 
@@ -31,7 +30,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version     = '>= 2.4.0'
   s.required_rubygems_version = '>= 2.7.0'
 
-  s.add_runtime_dependency('colorator', '~> 1.0')
+  s.add_runtime_dependency('colorator',     '~> 1.0')
   s.add_runtime_dependency('kramdown',      '~> 2.3', '>= 2.3.1')
   s.add_runtime_dependency('mercenary',     '>= 0.3.6', '< 0.5')
   s.add_runtime_dependency('rss',           '~> 0.2', '>= 0.2.9')
