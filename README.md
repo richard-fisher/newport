@@ -1,7 +1,7 @@
+[https://richard.fisher.cymru](https://richard.fisher.cymru)
+
 # Newport
 Newport is a simple Ruby script for building a single file blog/static site.
-
-Example: [https://richard.fisher.cymru](https://richard.fisher.cymru)
 
 ## Getting Started
 - `gem install newport`
