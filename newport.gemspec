@@ -32,6 +32,5 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('colorator',     '~> 1.0')
   s.add_runtime_dependency('kramdown',      '~> 2.3', '>= 2.3.1')
-  s.add_runtime_dependency('mercenary',     '>= 0.3.6', '< 0.5')
   s.add_runtime_dependency('rss',           '~> 0.2', '>= 0.2.9')
 end

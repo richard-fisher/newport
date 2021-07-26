@@ -1,10 +1,9 @@
 PATH
   remote: .
   specs:
-    newport (1.0.5)
+    newport (1.0.6)
       colorator (~> 1.0)
       kramdown (~> 2.3, >= 2.3.1)
-      mercenary (>= 0.3.6, < 0.5)
       rss (~> 0.2, >= 0.2.9)
 
 GEM
@@ -13,7 +12,6 @@ GEM
     colorator (1.1.0)
     kramdown (2.3.1)
       rexml
-    mercenary (0.4.0)
     rexml (3.2.5)
     rss (0.2.9)
       rexml
