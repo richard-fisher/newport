@@ -1,5 +1,3 @@
-[https://richard.fisher.cymru](https://richard.fisher.cymru)
-
 # Newport
 Newport is a Ruby Gem for building a single file blog/static site.
 
